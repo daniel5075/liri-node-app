@@ -3,7 +3,7 @@
 ## __Creator:__ Daniel Groveman
 ## __Created On:__ November 16, 2019
 
----
+- - -
 
 ## ABOUT THE APP
 LIRI is a _Language_ Interpretation and Recognition Interface. LIRI IS a command line node app that takes in parameters and gives you back data.  The user has the option of using four commands (listed below):
@@ -12,14 +12,14 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI IS a command
 * 'movie-this'
 * 'do-what-it-says'
 
----
+- - -
 
 ## HOW TO USE LIRI STEP BY STEP INSTUCTIONS:
 1. Open your terminal such as Bash.
 2. Navigate to the folder that contains the `liri.js` file. 
 3. Depending on the command you run, the output will vary. 
 
----
+- - -
 
     **Example 1**: Run the `concert-this` command
     
