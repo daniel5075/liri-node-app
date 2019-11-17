@@ -1,14 +1,14 @@
 # liri-node-app
 
-##__Creator:__ Daniel Groveman
-##__Created On:__ November 16, 2019
+## __Creator:__ Daniel Groveman
+## __Created On:__ November 16, 2019
 
 ---
 
-##ABOUT THE APP
+## ABOUT THE APP
 LIRI is a _Language_ Interpretation and Recognition Interface. LIRI IS a command line node app that takes in parameters and gives you back data.  The user has the option of using four commands (listed below):
 * 'concert-this'
-* "spotify-this-song'
+* 'spotify-this-song'
 * 'movie-this'
 * 'do-what-it-says'
 
@@ -25,7 +25,7 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI IS a command
     
     Output: The system will display the location where the artist or band will perform.  See screen-shot below:
 
-    ![Results](/img/concert-this.png)
+    ![Results](/img/concert-this.PNG)
 
     **Example 2**: Run the `spotify-this-song` command
     
@@ -33,7 +33,7 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI IS a command
     
     Output: The system will display a list of information associated with the song. See screen-shot below:
 
-    ![Results](/img/spotify-this-song.png)
+    ![Results](/img/spotify-this.png)
 
 
     **Example 3**: Run the `movie-this` command
