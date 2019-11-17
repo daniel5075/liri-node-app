@@ -45,25 +45,8 @@ function concertThis(title) {
             console.log("The date of the event is: " + dateFormated);
             console.log("*********************")
         })
-        .catch(function (error) {
-            if (error.response) {
-                // The request was made and the server responded with a status code
-                // that falls out of the range of 2xx
-                console.log("---------------Data---------------");
-                console.log(error.response.data);
-                console.log("---------------Status---------------");
-                console.log(error.response.status);
-                console.log("---------------Status---------------");
-                console.log(error.response.headers);
-            } else if (error.request) {
-                // The request was made but no response was received
-                // `error.request` is an object that comes back with details pertaining to the error that occurred.
-                console.log(error.request);
-            } else {
-                // Something happened in setting up the request that triggered an Error
-                console.log("Error", error.message);
-            }
-            console.log(error.config);
+        .catch(function (err) {
+            console.log(err);
         });
 };
 
@@ -85,25 +68,8 @@ function movieThis(title) {
             console.log("The actors in the movie are: " + response.data.Actors);
             console.log("*********************")
         })
-        .catch(function (error) {
-            if (error.response) {
-                // The request was made and the server responded with a status code
-                // that falls out of the range of 2xx
-                console.log("---------------Data---------------");
-                console.log(error.response.data);
-                console.log("---------------Status---------------");
-                console.log(error.response.status);
-                console.log("---------------Status---------------");
-                console.log(error.response.headers);
-            } else if (error.request) {
-                // The request was made but no response was received
-                // `error.request` is an object that comes back with details pertaining to the error that occurred.
-                console.log(error.request);
-            } else {
-                // Something happened in setting up the request that triggered an Error
-                console.log("Error", error.message);
-            }
-            console.log(error.config);
+        .catch(function (err) {
+            console.log(err);
         });
 };
 function spotifyThis(title) {
@@ -132,8 +98,6 @@ function doThis() {
             return console.log(err);
         }
         var dataArr = data.split(',');
-        whatThis = dataArr[0];
-        title = dataArr[1];
-        checkCondition(whatThis, title);
+        checkCondition(dataArr[0], dataArr[1]);
     });
 };
