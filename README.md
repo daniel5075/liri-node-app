@@ -43,7 +43,8 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI IS a command
 
     ![Results](/img/movie-this.png)
         
-        If a search is run without the movie name it will default to Mr. Nobody and return results of that movie.  See screen-shot below:
+        If a search is run without the movie name it will default to Mr. Nobody and return results of that movie.  
+        See screen-shot below:
 
     ![Results](/img/movie-this-wout.png)
 
