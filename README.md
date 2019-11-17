@@ -18,7 +18,9 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI IS a command
 1. Open your terminal such as Bash.
 2. Navigate to the folder that contains the `liri.js` file. 
 3. Depending on the command you run, the output will vary. 
+
 ---
+
     **Example 1**: Run the `concert-this` command
     
         node liri.js concert-this <name of artist or band>
@@ -26,7 +28,9 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI IS a command
     Output: The system will display the location where the artist or band will perform.  See screen-shot below:
 
     ![Results](/img/concert-this.PNG)
+
 ---
+
     **Example 2**: Run the `spotify-this-song` command
     
         node liri.js spotify-this-song <name of song>
@@ -34,7 +38,9 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI IS a command
     Output: The system will display a list of information associated with the song. See screen-shot below:
 
     ![Results](/img/spotify-this.png)
+
 ---
+
     **Example 3**: Run the `movie-this` command
     
         node liri.js movie-this <name of movie>
@@ -46,7 +52,9 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI IS a command
         If a search is run without the movie name it will default to Mr. Nobody and return results of that movie.  See screen-shot below:
 
     ![Results](/img/movie-this-wout.png)
+
 ---
+
     **Example 4**: Run the `do-what-it-says` command
         
         node liri.js do-what-it-says
